@@ -1,0 +1,66 @@
+ul{
+    list-style-type: upper-roman;
+
+}
+
+li{
+    display: inline;
+    padding: 1em;
+}
+
+li:hover{
+    color: gray;
+    background-color: red;
+    padding: 1em;
+}
+/* 1em = 10px */
+/* interessante combo van li(opsomming):hover dat de hover state aanspreek van dat element */
+span{
+    display: block
+}
+/* om de zaken als container onder elkaar te zetten. 
+zie die w3.school etc */
+
+
+div{
+    background-color: rgb(94, 255, 201);
+    color: rgb(251, 231, 200);
+}
+
+span.custom{
+    background-color: red;
+    color: white;
+}
+/* span en div nalezen, is nog niet duidelijk */
+
+.main {
+    display: flex;
+    flex-direction: row; /* om het in mobiel onder elkaar te steken */
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.child
+{
+    background-color: darkgray;
+    padding: 4em;
+    margin:1pt;
+}
+
+/* id zijn uniek in html via # */
+
+#wrapper{
+    background-color: gold;
+}
+
+video
+{
+    object-fit: fill;
+    height: 300pt;
+    width: 50%;
+    border-radius: 5pt;
+}
+
+
+

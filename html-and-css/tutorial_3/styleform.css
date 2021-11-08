@@ -1,0 +1,47 @@
+html,body
+{
+    background-color: #F6EFEF;
+}
+div
+{
+    display: flex;
+    box-sizing: 1pt;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+input
+{
+    width: 300pt;
+    height: 75pt;
+}
+
+input::placeholder
+{
+    color: red;
+}
+
+label
+{
+padding-top:2em ;
+padding-bottom: 1em;
+}
+
+
+/* tailwind, bulma, bootstrap */
+/* van de leerkracht:
+form{
+    max-width: 700px;
+}
+
+.child{
+    display: flex;
+    padding: 1em;
+    width: 70%;
+}
+
+label{
+    text-align: right;
+    padding: 0.4em;
+}
+ */
