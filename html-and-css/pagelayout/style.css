@@ -1,0 +1,154 @@
+:root{
+    --intecbrussel: rgb(14, 14, 14)
+}
+
+html, body{
+    margin: 15;
+    padding: 0;
+}
+
+body{
+    background-color: var(--intecbrussel);
+}
+
+header{
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    border-bottom-color: rgb(233, 226, 226);
+}
+
+.logo > img{
+    width: 300px;
+}
+
+nav > ul > li{
+    list-style-type: none;
+    display: inline;
+    font: 13pt;
+    color: rgb(232, 218, 182);
+    padding: 0,5em;
+}
+
+main{
+    color: white;
+    padding: 1em;
+    display: flex;
+}
+
+main > section {
+    width: 75%;
+    width: 75%;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+main > section > article {
+    margin: 0.5em;
+}
+
+.sidebar{
+    width: 25%;
+    border-bottom: 1px;
+    border-bottom-color: darkgray;
+}
+
+footer{
+    color: lightblue;
+    padding:1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-color: rgb(242, 242, 242);
+    border-top-width: 1px;
+    border-top-style: dashed;
+}
+
+/* 
+:root{
+    --intecbrussel: rgb(14, 14, 14)
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: var(--intecbrussel);
+}
+
+header{
+    color:white;
+    padding:1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: rgb(39, 38, 38);
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+
+.logo > img{
+    width: 300px;
+}
+
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline;
+    font-size: 13pt;
+    padding:0.5em;
+}
+
+nav > ul > li:hover {
+    list-style-type: none;
+    display: inline;
+    font-size: 13pt;
+    color:darkgoldenrod;
+    padding:0.5em;
+}
+
+main{
+    color:white;
+    padding:1em;
+    display: flex;
+}
+
+main > section{
+    width: 75%;
+    padding:1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+main > section > article {
+    margin:0.5em
+}
+
+.sidebar{
+    width: 25%;
+    border-left-color: rgb(39, 38, 38);
+    border-left-width: 1px;
+    border-left-style: dashed;
+    padding:1em;
+}
+
+footer{
+    color:var(--intecbrussel);
+    padding:1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-color: rgb(39, 38, 38);
+    border-top-width: 1px;
+    border-top-style: dashed;
+}
+
+*/
