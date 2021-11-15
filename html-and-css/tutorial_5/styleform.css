@@ -1,0 +1,42 @@
+html, body{
+    margin:0%;
+    padding: 0;
+}
+
+.container{
+    padding: 1em;
+}
+
+.box{
+    /* The total width of an element should be calculated like this:
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+The total height of an element should be calculated like this:
+
+Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin */
+    background-color: grey;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    outline: 5px solid green;
+   /*  @font-face {
+        font-family: Sun_Flower;
+        src: url(.asset/Sun_Flower.otf);
+    }*/ 
+}
+
+
+.box > p {
+    text-align: right;
+    font-family: 'Indie Flower';
+}
+
+/* https://fonts.google.com/ 
+bijv. Indie Flower*/
+
+
+
+
+

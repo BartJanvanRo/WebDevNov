@@ -1,0 +1,58 @@
+*{
+background-color: darkkhaki;
+}
+
+/* * selecteert alles */
+
+body, html{
+    padding: 0;
+    margin: 0;
+    }
+
+/* body, html selecteert de body maar niet de inhoud van de inputvelden bijv. */
+
+
+.row{
+   /*   border: 1px solid black; 
+    padding: 1em;  */
+    }
+    
+
+
+#maindivcontainer{
+    background-color: rgb(169, 0, 0);
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: green;
+    border-radius: 10px;
+    /* die andere is compacter en fijner, zie row maar als je alleen bottom wilt doen*/
+}
+
+input{
+    background-color: black;
+    color: white;
+}
+
+
+input[name=username]{
+background-color: mediumaquamarine;
+color: black;
+}
+/* input tag name, username atribute */
+
+li{
+    color: red;
+    list-style-type: none;
+}
+
+li[name=item]{
+    color: green;
+}
+
+#maindivcontainer > .row > .col:nth-child(2){
+    background-color: yellow;
+    padding: 3px;
+}
+/* targeting row in container, gaan we later misschien gebruiken maar 
+ik kan beter de verschillende onderdelen goed taggen ivm naamsaanspreken en duidelijkheid*/

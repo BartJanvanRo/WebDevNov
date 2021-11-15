@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    padding: 15px; /* om de ruimte om de body te geven */
+}
+
+
+
+
+body{
+    background-color: darkgray;
+}
+
+
+.container{
+    padding: 1em;
+    color: white;
+    display: flex; /* om ze langs elkaar te zetten */
+    flex-direction: row; 
+    justify-content: space-around;/* ruimtes tussen de gelijke containers */  
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column; 
+        
+    }
+  }
+  /* om de boel onder elkaar te plaatsen bijv. mobiel */
+
+ .myIcon{
+    color: yellow;
+} 
+
+.container > i{
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(35, 218, 50), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.money{
+    background-image: url(./asset/homepod.png);
+    background-size: 100%;
+    width: 32px;
+    height: 32px;
+    display: block;
+    color:yellowgreen;
+}
+
+/* cdnjs.com bootstrap-icons */
+

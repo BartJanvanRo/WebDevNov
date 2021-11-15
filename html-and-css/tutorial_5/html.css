@@ -1,0 +1,50 @@
+html
+
+
+p {
+  position: relative;
+  bottom: 10px;
+}
+
+
+  #navbar {
+position: fixed;
+top: 0px;
+left: 0px;
+   width: 100%;
+    background-color: #767676;
+  }
+
+  /* links en rechts verdeling */
+  #left {
+  float: left;
+      width: 50%;
+    }
+    #right {
+float: right;
+      width: 40%;
+    }
+
+/* horizontaal centreren */
+    margin: auto;
+
+
+    /* schaduw (laatste is opacity) */
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    .links {
+        text-align: left;
+        color: black;
+        
+        /* maak het rond hieronder */
+        border-radius: 50%;
+      }
+
+      3rect {
+          animation-name: rainbow;
+          animation-duration: zoveel en dan sec;
+      }
+      @keyframes naam  (rainbow nu) dat je bij de vorige hebt ingestoken{
+0% tot andere procenten hebt ingestoken: en; 
+      }
