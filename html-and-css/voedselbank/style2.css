@@ -47,7 +47,7 @@ html, body{
 }
 
 .content {
-    # position: relative;
+    #position: relative;
     #top: -50%;
     width: 600px;
     background-color: blanchedalmond;

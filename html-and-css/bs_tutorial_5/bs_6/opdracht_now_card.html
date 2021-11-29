@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal components </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylecustom.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+<!-- <img src="https://krollermuller.nl/media/cache/jumbotron_image/media/contentpage/headerImage/entree-mb.png" class="fullsize" data-viewport=".jumbotron" data-scale-focus="{&quot;valign&quot;: &quot;center&quot;, &quot;halign&quot;: &quot;center&quot;}" style="width: 1412px; height: 300px; top: 0px; left: -25px; visibility: visible;"> -->
+    <div class="header py-5 ">
+        <h1 class="text-center text-danger">Kröller-Müller Museum: Uniek in elk seizoen</h1>
+    </div>
+
+    <!--  middle -->
+    <div class="container-fluid " id="camera">
+        <div class="card-group ">
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/tmsImage/spitter-vincent-van-gogh-44589-copyright-kroller-muller-museum.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">Vincent van Gogh</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">Tekening</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title " id="exampleModalLabel">Van Gogh, Drawing</h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/itemImage/km-117.265-collectiezoeker.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">jean dubuffet</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">jardin-d-email</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title" id="exampleModalLabel">jean dubuffet, jardin-d-email</h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/tmsImage/compositie-in-kleur-a-piet-mondriaan-48981-copyright-kroller-muller-museum.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">Piet Mondriaan</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">Japie banana, schilderij</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title " id="exampleModalLabel">Mondriaan, Japie banana, schilderij
+                                    </h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/tmsImage/boerenschuur-julie-de-graag-44916-copyright-kroller-muller-museum.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">Julie de Graag</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">Boerenschuur, 1919</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title" id="exampleModalLabel">Julie de Graag, Boerenschuur, 1919
+                                    </h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/tmsImage/compositie-in-kleur-a-piet-mondriaan-48981-copyright-kroller-muller-museum.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">Piet Mondriaan</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">Japie banana, schilderij</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title " id="exampleModalLabel">Mondriaan, Japie banana, schilderij
+                                    </h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/tmsImage/spitter-vincent-van-gogh-44589-copyright-kroller-muller-museum.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">Vincent van Gogh</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">Tekening</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title " id="exampleModalLabel">Van Gogh, Drawing</h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/tmsImage/boerenschuur-julie-de-graag-44916-copyright-kroller-muller-museum.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">Julie de Graag</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">Boerenschuur, 1919</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title" id="exampleModalLabel">Julie de Graag, Boerenschuur, 1919
+                                    </h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+            <div class="card p-1">
+                <!-- begin klikbaar element -->
+                <div class="container">
+                    <!-- Button trigger modal -->
+                    <img src="https://krollermuller.nl/media/cache/collection_item_detail_small/media/collectionitempage/itemImage/km-117.265-collectiezoeker.jpg"
+                        class="card-img-top">
+                    <div class="card-img-overlay" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <h2 class="card-title mx-3 mt-2 bg-secondary">jean dubuffet</h2>
+                        <p class="card-text mx-3 mt-2 bg-secondary">jardin-d-email</p>
+                    </div>
+
+                    <!-- pop-up window is hidden by default. -->
+                    <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-danger text-light">
+                                    <h2 class="modal-title" id="exampleModalLabel">jean dubuffet, jardin-d-email</h2>
+                                    <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- dit vervangen met een klik document -->
+                                <div class="modal-body">
+                                    <h3 class="my-2">Afdruk kopen?</h3>
+
+                                    <div class="input-group">
+                                        <span class="input-group-text">Uw voor- en achternaam</span>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                    </div>
+
+                                    <h4 class="my-2">Uw emailadres</h4>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control " placeholder="name">
+                                        <label class="input-group-text">@</label>
+                                        <input type="text" class="form-control text-light" placeholder="domain.com">
+                                    </div>
+                                </div>
+
+                                <!-- dit vervangen met een klik document -->
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">reject</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- einde klikbaar element -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

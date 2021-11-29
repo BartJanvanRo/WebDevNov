@@ -1,0 +1,18 @@
+/* li{
+    padding:0% 0.2em
+} */
+
+li:hover{
+
+}
+
+/* borderbox werkt hier niet, werken met lining */
+
+
+.logo {
+    float: left;
+    width: 25%;
+  }
+  .section {
+    margin-left: 25%;
+  }
