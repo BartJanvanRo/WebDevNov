@@ -109,5 +109,46 @@ const db = ['1',true, _number1]
 console.log(db)
 
 
+const personInfo = {
+    nameFirst: 'Bart',
+    nameFamily: 'van Rossum',
+    age: 40,
+    birthPlace: 'Wijchen'
+}
+
+
+personInfo.livingPlace= "Antwerpen"
+delete personInfo.birthPlace
+
+console.log(personInfo)
+
+
+
+/* publieke public api's om te gebruiken.  */
+
+
+
+/* codinggame.com or codecombat. */
+
+
+
+var age2 = 5;
+
+while (age2 < 10) {
+    console.log("Jonger dan 10");
+    age2++;
+}
+
+console.log("Je bent ouder dan 10")
+
+
+/* kan gemakkelijker, ingebouwde var 
+heeft geen var benaming nodig */
+
+for (age3 = 5; age3 < 10; age3++){
+    console.log("-10 jaar");
+}
+
+console.log("+ 10 jaar")
 
 
