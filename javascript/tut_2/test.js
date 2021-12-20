@@ -57,13 +57,16 @@ var _number2=2
 
 var mySalary = 31200;
 var Months = 12
-var taxPercentage = 35
+var taxPercentage = 35  // procent
 
 var monthlyBruto = mySalary / Months 
 var monthlyNetto = monthlyBruto - ((monthlyBruto / 100) * taxPercentage)
 
 console.log(monthlyBruto)
 console.log(monthlyNetto)
+
+
+
 
 _number1++
 
