@@ -14,25 +14,62 @@ function PlayAudio(keyNumber) {
 
 
 //links button to action
-function pressKeyboard(pressB){
-pressB.event.which()
-Let getKey = pressKeyboard
-}
 
 
 //picsum.photos/200
 
 
-allBttn.forEach(el => {
-    //    console.log('data-key');
-    //set action
-    el.addEventListener('click'/* click action name/html dom event */, (e => {
-        //addEventListener stuurt de reactie aan bijv. hover of click.
-        // console.log('click')
-        //   //play audio
-        e.preventDefault()
-        let getKey = el.getAttribute('data-key') // zet de drukknop om in een functie.
-        PlayAudio(getKey)
-    })
-    )
-})
+
+let audios = document.querySelectorAll('audio')
+ 
+
+
+console.log(audios);
+
+// Converting to array using Array.from() method
+const arrayMusic = Array.from(audios);
+console.log(arrayMusic);
+
+
+
+document.addEventListener('keydown', e => {
+    //addEventListener stuurt de reactie aan bijv. hover of click.
+    e.preventDefault()
+    console.log(e.key)
+    //   //play audio
+    let keySoundArray = [65, 83,70, 71,72,74, 75, 76]
+    if (e.key == 'a') {
+        PlayAudio(keySoundArray[0])
+    }
+    if (e.key == 's') {
+        PlayAudio(keySoundArray[1])
+    }
+    if (e.key == 'd') {
+        PlayAudio(keySoundArray[2])
+    }
+    if (e.key == 'f') {
+        PlayAudio(keySoundArray[3])
+    }
+    if (e.key == 'g') {
+        PlayAudio(keySoundArray[4])
+    }
+    if (e.key == 'h') {
+        PlayAudio(keySoundArray[5])
+    }
+    if (e.key == 'j') {
+        PlayAudio(keySoundArray[6])
+    }
+    if (e.key == 'k') {
+        PlayAudio(keySoundArray[7])
+    }
+    if (e.key == 'l') {
+        PlayAudio(keySoundArray[8])
+    }
+
+
+
+/*     audios.forEach((singleaudio)=>{
+
+        array.push(singleaudio.getAttribute('data-key'))
+        console.log(array.push)
+        }) */
